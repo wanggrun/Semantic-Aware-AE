@@ -37,6 +37,9 @@ python3  -m torch.distributed.launch --nproc_per_node=8 eval_linear.py --arch vi
 ```
 
 
+# License
+This repository is released under the Apache 2.0 license as found in the [LICENSE](LICENSE) file.
+
 
 # Installation
 
