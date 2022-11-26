@@ -249,7 +249,6 @@ class LinearClassifier(nn.Module):
         # flatten
         x = x.view(x.size(0), -1)
         x = self._bn_(x)
-
         # linear layer
         return self.linear(x)
 
