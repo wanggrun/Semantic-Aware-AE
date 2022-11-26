@@ -214,8 +214,6 @@ def _get_image_size(img):
         raise TypeError("Unexpected type {}".format(type(img)))
 
 
-
-
 class RandomResizedCropCoord(object):
     """Crop the given PIL Image to random size and aspect ratio.
     A crop of random size (default: of 0.08 to 1.0) of the original size and a random
