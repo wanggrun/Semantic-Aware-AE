@@ -479,8 +479,6 @@ class SAAELoss(nn.Module):
         loss = self.mse(img1, target3, mask1) + self.mse(img2, target3, mask2)
         total_loss =  loss + semantic_aligner
         self.it  += 1
-        if self.it%20==0:
-            print(loss, semantic_aligner1/10., semantic_aligner2)
         return total_loss
 
     @torch.no_grad()
