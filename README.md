@@ -12,7 +12,7 @@ This is the code of our paper "Semantic-Aware Auto-Encoders for Self-Supervised 
 [Project Page](https://wanggrun.github.io/projects/works/saae)
 
 
-A highly recommended project: [Traditional Classification Neural Networks are Good Generators](https://wanggrun.github.io/projects/works/cag)
+A highly recommended project: [Traditional Classification Neural Networks are Good Generators: They are Competitive with DDPMs and GANs](https://wanggrun.github.io/projects/works/cag)
 
 
 ## ImageNet
