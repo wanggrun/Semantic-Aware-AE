@@ -23,7 +23,7 @@ An example of SSL training script on ImageNet. More and larger GPUs are better. 
 
 
 ```shell
-python -m torch.distributed.launch --nproc_per_node=8 main_saae.py --arch vit_base --data_path xxxxxxxxx/ILSVRC2012/train --output_dir  xxxxxxx/name_of_output_dir/   --epochs  400   --reference_crops_number  1  --batch_size_per_gpu 120  --use_fp16 true  --num_workers  4   --weight_decay  0.1    --weight_decay_end   0.1  --use_bn_in_head true   --lr  2.4e-4
+python -m torch.distributed.launch --nproc_per_node=8 main_saae.py --arch vit_base --data_path xxxxxxxxx/ILSVRC2012/train --output_dir  xxxxxxx/name_of_output_dir/   --epochs  400   --reference_crops_number  1  --batch_size_per_gpu 120  --use_fp16 true  --num_workers  4   --weight_decay  0.1    --weight_decay_end   0.1  --use_bn_in_head true   --lr  2.4e-4   --global_crops_scale 0.14 1.
 
 ```
 
